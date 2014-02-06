@@ -1,0 +1,209 @@
+# depslib dependency file v1.0
+1288716760 source:c:\users\fiachna\documents\programming\hit3172\battleships\coordinate.cpp
+	"coordinate.h"
+	<stdlib.h>
+
+1288686290 c:\users\fiachna\documents\programming\hit3172\battleships\coordinate.h
+
+1288984640 source:c:\users\fiachna\documents\programming\hit3172\battleships\ship.cpp
+	"ship.h"
+	<iostream>
+
+1288707600 c:\users\fiachna\documents\programming\hit3172\battleships\ship.h
+	"coordinate.h"
+	<string>
+
+1288906761 source:c:\users\fiachna\documents\programming\hit3172\battleships\cell.cpp
+	"cell.h"
+
+1288709662 c:\users\fiachna\documents\programming\hit3172\battleships\cell.h
+	"ship.h"
+
+1288716851 source:c:\users\fiachna\documents\programming\hit3172\battleships\board.cpp
+	"board.h"
+
+1288910657 c:\users\fiachna\documents\programming\hit3172\battleships\board.h
+	"cell.h"
+	"coordinate.h"
+	<vector>
+
+1289145202 source:c:\users\fiachna\documents\programming\hit3172\battleships\graphical.cpp
+	"graphical.h"
+	<iostream>
+
+1289143140 c:\users\fiachna\documents\programming\hit3172\battleships\graphical.h
+	"graphics.h"
+	"interface.h"
+
+1269627514 c:\program files (x86)\codeblocks-ep\sdk\winbgim\include\graphics.h
+	<windows.h>
+	<limits.h>
+	<sstream>
+
+1289143140 c:\users\fiachna\documents\programming\hit3172\battleships\interface.h
+	"board.h"
+	"coordinate.h"
+
+1288707988 source:c:\users\fiachna\documents\programming\hit3172\battleships\coordinate_test.cpp
+	"coordinate.h"
+	<iostream>
+	<stdlib.h>
+	<time.h>
+
+1288708065 source:c:\users\fiachna\documents\programming\hit3172\battleships\ship_test.cpp
+	"ship.h"
+	<iostream>
+
+1288712185 source:c:\users\fiachna\documents\programming\hit3172\battleships\board_test.cpp
+	"board.h"
+	"graphical.h"
+	<iostream>
+
+1288716851 source:c:\users\fiachna\documents\programming\hit3172\battleships\chooser.cpp
+	"chooser.h"
+	<math.h>
+
+1288717952 c:\users\fiachna\documents\programming\hit3172\battleships\chooser.h
+	"board.h"
+
+1288984520 source:c:\users\fiachna\documents\programming\hit3172\battleships\random.cpp
+	"random.h"
+	<iostream>
+	<stdlib.h>
+
+1288782015 c:\users\fiachna\documents\programming\hit3172\battleships\random.h
+	"chooser.h"
+
+1288779029 source:c:\users\fiachna\documents\programming\hit3172\battleships\random_test.cpp
+	"random.h"
+	"graphical.h"
+	<iostream>
+	<stdlib.h>
+	<time.h>
+
+1288795209 source:c:\users\fiachna\documents\programming\hit3172\battleships\graphical_test.cpp
+	"board.h"
+	"graphical.h"
+	<iostream>
+
+1289143199 source:c:\users\fiachna\documents\programming\hit3172\battleships\specific.cpp
+	"specific.h"
+	<iostream>
+	<stdlib.h>
+
+1288795783 c:\users\fiachna\documents\programming\hit3172\battleships\specific.h
+	"chooser.h"
+	"graphical.h"
+
+1288796835 source:c:\users\fiachna\documents\programming\hit3172\battleships\specific_test.cpp
+	"specific.h"
+	"graphical.h"
+	<iostream>
+	<stdlib.h>
+	<time.h>
+
+1288872394 source:c:\users\fiachna\documents\programming\hit3172\battleships\attack_test.cpp
+	"attack.h"
+	<iostream>
+
+1288883082 c:\users\fiachna\documents\programming\hit3172\battleships\attack.h
+	"coordinate.h"
+	"cell.h"
+	<string>
+
+1289150575 source:c:\users\fiachna\documents\programming\hit3172\battleships\local.cpp
+	"local.h"
+	<iostream>
+
+1289139607 c:\users\fiachna\documents\programming\hit3172\battleships\local.h
+	"player.h"
+	"board.h"
+	"random.h"
+	"specific.h"
+	<vector>
+	<map>
+
+1289139576 c:\users\fiachna\documents\programming\hit3172\battleships\player.h
+	"attack.h"
+	"coordinate.h"
+	"board.h"
+	<string>
+
+1288902931 source:c:\users\fiachna\documents\programming\hit3172\battleships\computer.cpp
+	"computer.h"
+	"graphical.h"
+
+1288902931 c:\users\fiachna\documents\programming\hit3172\battleships\computer.h
+	"local.h"
+
+1288896563 source:c:\users\fiachna\documents\programming\hit3172\battleships\font_test.cpp
+	<graphics.h>
+	<stdlib.h>
+	<stdio.h>
+	<conio.h>
+
+1289143422 source:c:\users\fiachna\documents\programming\hit3172\battleships\novice.cpp
+	"novice.h"
+	<iostream>
+	<stdlib.h>
+
+1289143568 c:\users\fiachna\documents\programming\hit3172\battleships\novice.h
+	"computer.h"
+
+1288907652 source:c:\users\fiachna\documents\programming\hit3172\battleships\novice_test.cpp
+	"novice.h"
+	<iostream>
+	<stdlib.h>
+	<time.h>
+
+1289143529 source:c:\users\fiachna\documents\programming\hit3172\battleships\expert.cpp
+	"expert.h"
+	<iostream>
+	<stdlib.h>
+
+1289143463 c:\users\fiachna\documents\programming\hit3172\battleships\expert.h
+	"computer.h"
+
+1289149280 source:c:\users\fiachna\documents\programming\hit3172\battleships\expert_test.cpp
+	"novice.h"
+	"expert.h"
+	<iostream>
+	<stdlib.h>
+	<time.h>
+
+1289145202 source:c:\users\fiachna\documents\programming\hit3172\battleships\human.cpp
+	"human.h"
+	<iostream>
+	<stdlib.h>
+
+1289143568 c:\users\fiachna\documents\programming\hit3172\battleships\human.h
+	"local.h"
+
+1289150253 source:c:\users\fiachna\documents\programming\hit3172\battleships\human_test.cpp
+	"novice.h"
+	"expert.h"
+	"human.h"
+	<iostream>
+	<stdlib.h>
+	<time.h>
+
+1289147423 source:c:\users\fiachna\documents\programming\hit3172\battleships\game.cpp
+	"game.h"
+	<iostream>
+	<sstream>
+	<time.h>
+
+1288993898 c:\users\fiachna\documents\programming\hit3172\battleships\game.h
+	"human.h"
+	"novice.h"
+	"expert.h"
+	<stdlib.h>
+
+1289146425 source:c:\users\fiachna\documents\programming\hit3172\battleships\main.cpp
+	"game.h"
+	<iostream>
+
+1288710811 source:c:\users\fiachna\documents\programming\hit3172\battleships\cell_test.cpp
+	"cell.h"
+	<iostream>
+
